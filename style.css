@@ -1,0 +1,56 @@
+#score{
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: 'Special Elite', fantasy;
+}
+#timer{
+    float: right;
+    margin-right: 5px;
+    font-size: 20px;
+    font-family: 'Special Elite', fantasy;
+}
+body{
+    background-image: url("https://cdn.wallpapersafari.com/0/2/3DMZfQ.jpg");
+    background-size:1400px, 650px;
+    background-position: center;
+}
+
+h1{
+
+    color: lemonchiffon;
+    font-family: 'Glass Antiqua', fantasy;
+    font-size:40px;
+    letter-spacing:4px;
+
+}
+#show_sketch{
+    float: left;
+}
+p{
+    font-family: 'Special Elite', fantasy;
+    font-size: 25px;
+    color: black;
+}
+#sketch_to_be_drawn{
+    font-family: 'Special Elite', fantasy;
+    font-size: 25px;
+    color: greenyellow;
+}
+
+canvas 
+  {
+    border:2px solid white;
+    border-radius:20px;
+    margin-top:135px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px gray;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
